@@ -61,7 +61,7 @@ private extension PermissionsActionView {
             goToSettingsButton(text: "允许相机展示实时画面")
 //            goToSettingsButton(text: "Allow Camera access in settings to see live preview")
         case .unavailable:
-            PermissionsErrorView(text: "报歉相机不可用", action: nil)
+            PermissionsErrorView(text: "报歉相机不可用,hah", action: nil)
 //            PermissionsErrorView(text: "Sorry, Camera is not available.", action: nil)
         case .unknown:
             fatalError("Unknown permission status.")
